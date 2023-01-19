@@ -63,7 +63,6 @@ export default {
                 if (this.todo == '' && this.input_errors.length == 0)
                     this.input_errors.push('ToDo field cannot be left blank')
                 this.input_errors.forEach((value) => {
-                    this.$notify(value);
                 });
             } else {
                 try {
